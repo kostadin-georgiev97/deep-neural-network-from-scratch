@@ -5,12 +5,12 @@ Implementation of DNN with Early Stopping from scratch in Python. The evaluation
 
 | Dataset | Model | n_hidden | max_iterations | early_stopping | early_stopping_interval | Accuracy |
 | ------- | ----- | -------- | -------------- | -------------- | ----------------------- | -------- |
-| Blobs | LogisticRegressionSGD | default |  default |  False |  default | 100.0 |
-| Blobs | ShallowNeuralNetworkSGD | 10 | 10,000 | False |  default | 100.0 |
-| Moons | LogisticRegressionSGD | default |  10,000 |  False |  default | 90.67 |
-| Moons | ShallowNeuralNetworkSGD | 20 | 200,0000 |  False |  default | 97.33 |
-| Fashion-MNIST | ShallowNeuralNetworkSGD | 8 | 100 epochs |  False |  default | 99.10 |
-| Fashion-MNIST | DeepNeuralNetworkSGD | (8,4) | 500 epochs | True | 100 | 98.80 |
+| Blobs | LogisticRegressionSGD | N/A |  10,000 |  False | N/A | 100.0 |
+| Blobs | ShallowNeuralNetworkSGD | (10,) | 10,000 | False |  N/A | 100.0 |
+| Moons | LogisticRegressionSGD | N/A |  10,000 |  False |  N/A | 90.7 |
+| Moons | ShallowNeuralNetworkSGD | (20,) | 200,0000 |  False |  N/A | 97.3 |
+| Fashion-MNIST | ShallowNeuralNetworkSGD | (8,) | 100 epochs |  False |  N/A | 99.1 |
+| Fashion-MNIST | DeepNeuralNetworkSGD | (8,4) | 500 epochs | True | 100 | 98.8 |
 
 From the results of the different models on the different datasets, I have made the following observations:
 
